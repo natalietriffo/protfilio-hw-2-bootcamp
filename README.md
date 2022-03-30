@@ -12,7 +12,7 @@ I learned and practiced how to create a portfolio with pictures, sections, forms
 After finishing project one I updated my personal portfolio with a screenshot and links to the website. 
 ## Screenshot
 
-![Screen Shot 2022-03-26 at 2 11 05 PM](https://user-images.githubusercontent.com/97486569/160740349-e41fb58d-c272-472a-ac82-e79621e70c45.png)
+![chowhounds screenshot](https://user-images.githubusercontent.com/97486569/160740390-78065d5f-cd14-4659-9e1c-dd349d43e134.png)
 
 
 ## Created By:
