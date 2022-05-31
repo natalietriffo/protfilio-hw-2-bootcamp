@@ -8,8 +8,11 @@
 ## Purpose
 I learned and practiced how to create a portfolio with pictures, sections, forms, and more. Employers and other can see my page and contact me if interested.
 
+## Update#1
+After finishing project one I updated my personal portfolio with a screenshot and links to the website. 
 ## Screenshot
-![Screen Shot 2022-02-12 at 2 49 27 PM (2)](https://user-images.githubusercontent.com/97486569/153727904-f80fec5b-bc2f-4ffd-bbd5-118119ea7e68.png)
+
+![chowhounds screenshot](https://user-images.githubusercontent.com/97486569/160740390-78065d5f-cd14-4659-9e1c-dd349d43e134.png)
 
 
 ## Created By:
