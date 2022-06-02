@@ -22,7 +22,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
   z-index: 3;
   width: 250px;
-  top: 43px;
+  top: 55px;
   bottom: 0;
   height: inherit;
 }
@@ -30,16 +30,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 </head>
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Projects</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Skills</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Education</a>
+  <div class="topnav">
+    <a class="active" href="#aboutme">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Contact</a>
+    <a href="#myinfo">My Info</a>
     
   </div>
-</div>
 
 <!-- Sidebar -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
@@ -50,18 +47,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="mailto:nattriffo@gmail.com">Email</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="https://github.com/natalietriffo">Github</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="https://www.linkedin.com/in/natalie-triffo-186a6319a/">LinkedIn</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">1-847-830-1072</a>
+  
 </nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
+<!-- <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+
+<div class="w3-main" style="margin-left:300px">
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Natalie Triffo</h1>
+      <h1 class="w3-text-green">Natalie Triffo</h1>
       <img src="images/IMG_1575.JPG" alt="selfie" style="width:300px;height:450px; 
       <p>My name is Natalie Triffo, I am twenty-one years old and currently a Northwestern University bootcamp student. I graduated from Oakton community College with my Associates in Business last fall. After graduation, I decided to continue my education with Northwestern University. Throughout the few short weeks that I have been in the bootcamp and have quickly realized the true capability that the coding industry has. I am eager to learn and I know that I have the capacity to become a great employee!
         When I am not in class or doing work for the bootcamp I am most likely at work. I work full time as a waitress/ bartender. I enjoy spending time with my frineds and family exploring the city!</p>
@@ -69,11 +65,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Projects</h1>
+      <h1 class="w3-text-green">Projects</h1>
       
       <p>Project One: Chowhounds 
        User Story: Any person with specific wants and needs for their restaurant experience can use our web application to find the perfect restaurant for them. The user will be asked for a zip code, followed by a series of questions. Based on the user's response to the zip code and the questions, a list of restaurants will be provided. The list also provides the user with a yelp ranking, approximate travel time (in minutes), and the option to “favorite” the restaurant.
        <img src="images/chowhounds screenshot.png" alt="projectone" width="800px" height="500px" >
+      </p>
+
+      <p>
+        Project Two: Fully Booked
+        User Story: Our web application is a virtual community library. Any user can log in by creating an account. When creating an account the user must include their zip code in order to retrieve books from  libraries near them.  Once an account is created the user has access to a search bar, browse button, user dashboard, and homepage. Members of fully- booked have the option to create their own community libraries, separate from community libraries. By creating your own library the application gives the user options to update current libraries, add a books to a library, and delete books. 
+
+        If a user does not want to create an account, they are still able to use the web application freely. However, they can not create a personalized library and enjoy the features that come along with that.
+        <img src="images/Screen Shot 2022-05-14 at 11.54.11 AM.png" alt="project two" width="800px" height="500px" >
       </p>
 
 
@@ -83,9 +87,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Skills</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 class="w3-text-green">Skills</h1>
+      <p>- HTML</p>
+      <p>- CSS</p>
+      <p>- JAVA</p>
+      <p>- MYSQL</p>
+      <p>- Handlebars</p>
+      <p>- Express</p>
+      <p>- Bootstrap</p>
+      <p>- Mongo</p>
+      
    
   
 
