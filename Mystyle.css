@@ -1,4 +1,6 @@
-
+body {
+  background-color: rgb(236, 221, 201);
+}
 
 .topnav {
     background-color: #333;
@@ -23,8 +25,4 @@
     color: black;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color:green;
-    color: white;
-  }
+  
